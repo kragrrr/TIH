@@ -1,0 +1,221 @@
+============================================================
+New run started at 2023-07-05.16:25:42.370861
+sys.argv: "/Users/krish/Library/Python/3.10/lib/python/site-packages/ipykernel_launcher.py --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"de228edb-8437-4bd5-b9b2-920d2d59b663" --shell=9007 --transport="tcp" --iopub=9009 --f=/Users/krish/Library/Jupyter/runtime/kernel-v2-97946DL5fXTKRj4em.json"
+============================================================
+The console stream is logged into /Users/krish/sg_logs/console.log
+
+Caching annotations:   0%|          | 0/43 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 43/43 [00:00<00:00, 12050.99it/s]
+
+Caching annotations:   0%|          | 0/19 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 19/19 [00:00<00:00, 12477.18it/s]
+
+Caching annotations:   0%|          | 0/13 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 13/13 [00:00<00:00, 11423.83it/s]
+Downloading: "https://sghub.deci.ai/models/yolo_nas_l_coco.pth" to /Users/krish/.cache/torch/hub/checkpoints/yolo_nas_l_coco.pth
+
+  0%|          | 0.00/256M [00:00<?, ?B/s]
+  1%|          | 2.08M/256M [00:00<00:12, 21.5MB/s]
+  2%|▏         | 5.03M/256M [00:00<00:09, 26.8MB/s]
+  3%|▎         | 7.59M/256M [00:00<00:11, 22.7MB/s]
+  4%|▍         | 9.83M/256M [00:00<00:12, 21.3MB/s]
+  5%|▍         | 11.9M/256M [00:00<00:12, 20.5MB/s]
+  5%|▌         | 13.9M/256M [00:00<00:12, 20.0MB/s]
+  6%|▌         | 15.8M/256M [00:00<00:12, 19.7MB/s]
+  7%|▋         | 17.7M/256M [00:00<00:12, 19.6MB/s]
+  8%|▊         | 19.6M/256M [00:01<00:12, 19.3MB/s]
+  8%|▊         | 21.4M/256M [00:01<00:12, 19.3MB/s]
+  9%|▉         | 23.3M/256M [00:01<00:12, 19.2MB/s]
+ 10%|▉         | 25.1M/256M [00:01<00:12, 19.1MB/s]
+ 11%|█         | 26.9M/256M [00:01<00:12, 19.1MB/s]
+ 11%|█         | 28.8M/256M [00:01<00:12, 18.9MB/s]
+ 12%|█▏        | 30.7M/256M [00:01<00:12, 19.1MB/s]
+ 13%|█▎        | 32.5M/256M [00:01<00:12, 19.1MB/s]
+ 13%|█▎        | 34.3M/256M [00:01<00:12, 19.1MB/s]
+ 14%|█▍        | 36.2M/256M [00:01<00:12, 19.1MB/s]
+ 15%|█▍        | 38.0M/256M [00:02<00:11, 19.1MB/s]
+ 16%|█▌        | 39.8M/256M [00:02<00:11, 19.1MB/s]
+ 16%|█▋        | 41.7M/256M [00:02<00:11, 19.0MB/s]
+ 17%|█▋        | 43.5M/256M [00:02<00:11, 19.0MB/s]
+ 18%|█▊        | 45.3M/256M [00:02<00:11, 18.8MB/s]
+ 18%|█▊        | 47.2M/256M [00:02<00:11, 19.1MB/s]
+ 19%|█▉        | 49.0M/256M [00:02<00:11, 19.1MB/s]
+ 20%|█▉        | 50.9M/256M [00:02<00:11, 19.1MB/s]
+ 21%|██        | 52.7M/256M [00:02<00:11, 18.7MB/s]
+ 21%|██▏       | 54.6M/256M [00:02<00:11, 19.2MB/s]
+ 22%|██▏       | 56.5M/256M [00:03<00:10, 19.1MB/s]
+ 23%|██▎       | 58.3M/256M [00:03<00:10, 19.1MB/s]
+ 23%|██▎       | 60.1M/256M [00:03<00:10, 19.1MB/s]
+ 24%|██▍       | 62.0M/256M [00:03<00:10, 19.0MB/s]
+ 25%|██▍       | 63.8M/256M [00:03<00:10, 19.0MB/s]
+ 26%|██▌       | 65.6M/256M [00:03<00:10, 19.1MB/s]
+ 26%|██▋       | 67.4M/256M [00:03<00:10, 19.1MB/s]
+ 27%|██▋       | 69.3M/256M [00:03<00:10, 19.0MB/s]
+ 28%|██▊       | 71.1M/256M [00:03<00:10, 19.0MB/s]
+ 28%|██▊       | 72.9M/256M [00:03<00:10, 19.0MB/s]
+ 29%|██▉       | 74.8M/256M [00:04<00:09, 19.0MB/s]
+ 30%|██▉       | 76.6M/256M [00:04<00:09, 19.0MB/s]
+ 31%|███       | 78.5M/256M [00:04<00:09, 19.1MB/s]
+ 31%|███▏      | 80.3M/256M [00:04<00:09, 19.1MB/s]
+ 32%|███▏      | 82.1M/256M [00:04<00:09, 19.0MB/s]
+ 33%|███▎      | 84.0M/256M [00:04<00:09, 19.1MB/s]
+ 34%|███▎      | 85.8M/256M [00:04<00:09, 19.0MB/s]
+ 34%|███▍      | 87.7M/256M [00:04<00:09, 19.0MB/s]
+ 35%|███▍      | 89.5M/256M [00:04<00:09, 19.1MB/s]
+ 36%|███▌      | 91.3M/256M [00:04<00:09, 19.0MB/s]
+ 36%|███▋      | 93.1M/256M [00:05<00:09, 18.6MB/s]
+ 37%|███▋      | 95.1M/256M [00:05<00:08, 19.1MB/s]
+ 38%|███▊      | 97.0M/256M [00:05<00:08, 19.2MB/s]
+ 39%|███▊      | 98.8M/256M [00:05<00:08, 19.2MB/s]
+ 39%|███▉      | 101M/256M [00:05<00:08, 19.2MB/s] 
+ 40%|████      | 102M/256M [00:05<00:08, 19.0MB/s]
+ 41%|████      | 104M/256M [00:05<00:08, 19.1MB/s]
+ 41%|████▏     | 106M/256M [00:05<00:08, 19.1MB/s]
+ 42%|████▏     | 108M/256M [00:05<00:08, 18.8MB/s]
+ 43%|████▎     | 110M/256M [00:05<00:07, 19.2MB/s]
+ 44%|████▎     | 112M/256M [00:06<00:07, 19.1MB/s]
+ 44%|████▍     | 114M/256M [00:06<00:07, 19.1MB/s]
+ 45%|████▌     | 115M/256M [00:06<00:07, 19.0MB/s]
+ 46%|████▌     | 117M/256M [00:06<00:07, 19.1MB/s]
+ 47%|████▋     | 119M/256M [00:06<00:07, 19.1MB/s]
+ 47%|████▋     | 121M/256M [00:06<00:07, 19.1MB/s]
+ 48%|████▊     | 123M/256M [00:06<00:07, 19.1MB/s]
+ 49%|████▊     | 125M/256M [00:06<00:07, 19.1MB/s]
+ 49%|████▉     | 126M/256M [00:06<00:07, 19.0MB/s]
+ 50%|█████     | 128M/256M [00:06<00:07, 19.1MB/s]
+ 51%|█████     | 130M/256M [00:07<00:06, 19.1MB/s]
+ 52%|█████▏    | 132M/256M [00:07<00:06, 19.0MB/s]
+ 52%|█████▏    | 134M/256M [00:07<00:06, 19.0MB/s]
+ 53%|█████▎    | 136M/256M [00:07<00:06, 19.0MB/s]
+ 54%|█████▎    | 137M/256M [00:07<00:06, 19.0MB/s]
+ 54%|█████▍    | 139M/256M [00:07<00:06, 19.0MB/s]
+ 55%|█████▌    | 141M/256M [00:07<00:06, 19.1MB/s]
+ 56%|█████▌    | 143M/256M [00:07<00:06, 19.1MB/s]
+ 57%|█████▋    | 145M/256M [00:07<00:06, 19.1MB/s]
+ 57%|█████▋    | 147M/256M [00:07<00:06, 19.1MB/s]
+ 58%|█████▊    | 148M/256M [00:08<00:05, 19.0MB/s]
+ 59%|█████▊    | 150M/256M [00:08<00:05, 19.0MB/s]
+ 59%|█████▉    | 152M/256M [00:08<00:05, 19.0MB/s]
+ 60%|██████    | 154M/256M [00:08<00:05, 19.0MB/s]
+ 61%|██████    | 156M/256M [00:08<00:05, 19.1MB/s]
+ 62%|██████▏   | 158M/256M [00:08<00:05, 19.1MB/s]
+ 62%|██████▏   | 159M/256M [00:08<00:05, 19.1MB/s]
+ 63%|██████▎   | 161M/256M [00:08<00:05, 19.1MB/s]
+ 64%|██████▎   | 163M/256M [00:08<00:05, 19.1MB/s]
+ 64%|██████▍   | 165M/256M [00:09<00:05, 19.0MB/s]
+ 65%|██████▌   | 167M/256M [00:09<00:04, 19.0MB/s]
+ 66%|██████▌   | 169M/256M [00:09<00:04, 19.0MB/s]
+ 67%|██████▋   | 170M/256M [00:09<00:04, 18.6MB/s]
+ 67%|██████▋   | 172M/256M [00:09<00:04, 19.1MB/s]
+ 68%|██████▊   | 174M/256M [00:09<00:04, 18.9MB/s]
+ 69%|██████▊   | 176M/256M [00:09<00:04, 19.1MB/s]
+ 69%|██████▉   | 178M/256M [00:09<00:04, 19.2MB/s]
+ 70%|███████   | 180M/256M [00:09<00:04, 19.1MB/s]
+ 71%|███████   | 182M/256M [00:09<00:04, 19.0MB/s]
+ 72%|███████▏  | 183M/256M [00:10<00:03, 19.1MB/s]
+ 72%|███████▏  | 185M/256M [00:10<00:03, 19.0MB/s]
+ 73%|███████▎  | 187M/256M [00:10<00:03, 19.0MB/s]
+ 74%|███████▍  | 189M/256M [00:10<00:03, 19.1MB/s]
+ 74%|███████▍  | 191M/256M [00:10<00:03, 19.1MB/s]
+ 75%|███████▌  | 193M/256M [00:10<00:03, 19.1MB/s]
+ 76%|███████▌  | 194M/256M [00:10<00:03, 19.0MB/s]
+ 77%|███████▋  | 196M/256M [00:10<00:03, 18.9MB/s]
+ 77%|███████▋  | 198M/256M [00:10<00:03, 19.2MB/s]
+ 78%|███████▊  | 200M/256M [00:10<00:03, 19.1MB/s]
+ 79%|███████▉  | 202M/256M [00:11<00:02, 19.1MB/s]
+ 80%|███████▉  | 204M/256M [00:11<00:02, 19.0MB/s]
+ 80%|████████  | 205M/256M [00:11<00:02, 18.9MB/s]
+ 81%|████████  | 207M/256M [00:11<00:02, 19.1MB/s]
+ 82%|████████▏ | 209M/256M [00:11<00:02, 19.1MB/s]
+ 82%|████████▏ | 211M/256M [00:11<00:02, 19.1MB/s]
+ 83%|████████▎ | 213M/256M [00:11<00:02, 19.0MB/s]
+ 84%|████████▍ | 215M/256M [00:11<00:02, 19.1MB/s]
+ 85%|████████▍ | 217M/256M [00:11<00:02, 19.1MB/s]
+ 85%|████████▌ | 218M/256M [00:11<00:02, 19.1MB/s]
+ 86%|████████▌ | 220M/256M [00:12<00:01, 19.1MB/s]
+ 87%|████████▋ | 222M/256M [00:12<00:01, 19.1MB/s]
+ 87%|████████▋ | 224M/256M [00:12<00:01, 19.0MB/s]
+ 88%|████████▊ | 226M/256M [00:12<00:01, 19.1MB/s]
+ 89%|████████▉ | 228M/256M [00:12<00:01, 19.0MB/s]
+ 90%|████████▉ | 229M/256M [00:12<00:01, 19.0MB/s]
+ 90%|█████████ | 231M/256M [00:12<00:01, 18.9MB/s]
+ 91%|█████████ | 233M/256M [00:12<00:01, 19.1MB/s]
+ 92%|█████████▏| 235M/256M [00:12<00:01, 19.1MB/s]
+ 92%|█████████▏| 237M/256M [00:12<00:01, 19.1MB/s]
+ 93%|█████████▎| 239M/256M [00:13<00:00, 19.1MB/s]
+ 94%|█████████▍| 240M/256M [00:13<00:00, 19.1MB/s]
+ 95%|█████████▍| 242M/256M [00:13<00:00, 19.1MB/s]
+ 95%|█████████▌| 244M/256M [00:13<00:00, 19.1MB/s]
+ 96%|█████████▌| 246M/256M [00:13<00:00, 19.0MB/s]
+ 97%|█████████▋| 248M/256M [00:13<00:00, 19.0MB/s]
+ 97%|█████████▋| 250M/256M [00:13<00:00, 19.0MB/s]
+ 98%|█████████▊| 251M/256M [00:13<00:00, 19.1MB/s]
+ 99%|█████████▉| 253M/256M [00:13<00:00, 19.0MB/s]
+100%|█████████▉| 255M/256M [00:13<00:00, 19.0MB/s]
+100%|██████████| 256M/256M [00:14<00:00, 19.1MB/s]
+The console stream is now moved to checkpoints/my_first_yolonas_run/console_Jul05_16_41_24.txt
+/opt/homebrew/lib/python3.10/site-packages/torch/cuda/amp/grad_scaler.py:118: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.")
+[2023-07-05 16:43:14] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+The console stream is now moved to checkpoints/my_first_yolonas_run/console_Jul05_16_43_14.txt
+Exception in thread Thread-6:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.12/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 244, in run
+    self._run()
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 275, in _run
+    self._record_writer.write(data)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/record_writer.py", line 40, in write
+    self._writer.write(header + header_crc + data + footer_crc)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 773, in write
+    self.fs.append(self.filename, file_content, self.binary_mode)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 167, in append
+    self._write(filename, file_content, "ab" if binary_mode else "a")
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 171, in _write
+    with io.open(filename, mode, encoding=encoding) as f:
+FileNotFoundError: [Errno 2] No such file or directory: b'checkpoints/my_first_yolonas_run/events.out.tfevents.1688555484.Krish\xe2\x80\x99s MacBook Pro.18596.0'
+Exception in thread SystemMonitor:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.12/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.12/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/homebrew/lib/python3.10/site-packages/super_gradients/common/environment/monitoring/monitoring.py", line 81, in _run
+    self._aggregate_and_write()
+  File "/opt/homebrew/lib/python3.10/site-packages/super_gradients/common/environment/monitoring/monitoring.py", line 97, in _aggregate_and_write
+    self.tensorboard_writer.add_scalar(tag=stat_aggregator.name, scalar_value=scalar, global_step=self.write_count)
+  File "/opt/homebrew/lib/python3.10/site-packages/torch/utils/tensorboard/writer.py", line 391, in add_scalar
+    self._get_file_writer().add_summary(summary, global_step, walltime)
+  File "/opt/homebrew/lib/python3.10/site-packages/torch/utils/tensorboard/writer.py", line 113, in add_summary
+    self.add_event(event, global_step, walltime)
+  File "/opt/homebrew/lib/python3.10/site-packages/torch/utils/tensorboard/writer.py", line 98, in add_event
+    self.event_writer.add_event(event)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 117, in add_event
+    self._async_writer.write(event.SerializeToString())
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 171, in write
+    self._check_worker_status()
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 212, in _check_worker_status
+    raise exception
+  File "/opt/homebrew/Cellar/python@3.10/3.10.12/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 244, in run
+    self._run()
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/event_file_writer.py", line 275, in _run
+    self._record_writer.write(data)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/summary/writer/record_writer.py", line 40, in write
+    self._writer.write(header + header_crc + data + footer_crc)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 773, in write
+    self.fs.append(self.filename, file_content, self.binary_mode)
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 167, in append
+    self._write(filename, file_content, "ab" if binary_mode else "a")
+  File "/opt/homebrew/lib/python3.10/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py", line 171, in _write
+    with io.open(filename, mode, encoding=encoding) as f:
+FileNotFoundError: [Errno 2] No such file or directory: b'checkpoints/my_first_yolonas_run/events.out.tfevents.1688555484.Krish\xe2\x80\x99s MacBook Pro.18596.0'
+[2023-07-05 16:46:17] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+The console stream is now moved to checkpoints/my_first_yolonas_run/console_Jul05_16_46_17.txt
+[2023-07-05 16:49:49] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+The console stream is now moved to checkpoints/my_first_yolonas_run/console_Jul05_16_49_50.txt
+/opt/homebrew/lib/python3.10/site-packages/torch/cuda/amp/grad_scaler.py:118: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.")
+[2023-07-05 17:30:29] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}

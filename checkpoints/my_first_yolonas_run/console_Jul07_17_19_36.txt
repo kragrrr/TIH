@@ -1,0 +1,18 @@
+============================================================
+New run started at 2023-07-07.17:18:58.621453
+sys.argv: "/Users/krish/Library/Python/3.10/lib/python/site-packages/ipykernel_launcher.py --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"9c5d873c-deb6-4f92-868e-356f4b2acc34" --shell=9002 --transport="tcp" --iopub=9004 --f=/Users/krish/Library/Jupyter/runtime/kernel-v2-78914JP6m7LYb0wrr.json"
+============================================================
+The console stream is logged into /Users/krish/sg_logs/console.log
+
+Caching annotations:   0%|          | 0/43 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 43/43 [00:00<00:00, 2669.48it/s]
+
+Caching annotations:   0%|          | 0/19 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 19/19 [00:00<00:00, 2779.72it/s]
+
+Caching annotations:   0%|          | 0/13 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 13/13 [00:00<00:00, 2277.89it/s]
+The console stream is now moved to checkpoints/my_first_yolonas_run/console_Jul07_17_19_36.txt
+/opt/homebrew/lib/python3.10/site-packages/torch/cuda/amp/grad_scaler.py:118: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.")
+[2023-07-07 17:19:55] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
