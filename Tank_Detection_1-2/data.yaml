@@ -1,0 +1,13 @@
+train: /Users/krish/Development/TIH/Tank_Detection_1-2/train
+val: /Users/krish/Development/TIH/Tank_Detection_1-2/valid
+test: /Users/krish/Development/TIH/Tank_Detection_1-2/test
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: yolonas-oong9
+  project: tank-detection-1
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolonas-oong9/tank-detection-1/dataset/3
